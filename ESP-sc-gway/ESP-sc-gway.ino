@@ -471,7 +471,7 @@ int WlanReadWpa() {
 int WlanWriteWpa( char* ssid, char *pass) {
 
 #if DUSB>=1
-	if ( debug >=0 ) && ( pdebug & P_MAIN )) {
+	if (( debug >=0 ) && ( pdebug & P_MAIN )) {
 		Serial.print(F("WlanWriteWpa:: ssid=")); 
 		Serial.print(ssid);
 		Serial.print(F(", pass=")); 
